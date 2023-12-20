@@ -1,0 +1,70 @@
+.projects-main {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 7.4rem;
+  row-gap: 7.5rem;
+}
+
+.project-data {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 7rem;
+}
+
+.project-img {
+  width: 100%;
+  box-shadow: 0 0 0 0.15rem rgb(0, 0, 0, 0.05);
+  border-radius: 1.2rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  line-height: 3rem;
+}
+
+.project-name {
+  font-size: var(--font-size-38);
+  font-weight: var(--font-weight-semi-bold);
+}
+
+
+.product-link:link,
+.product-link:visited {
+  color: var(--color-light-blue);
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-semi-bold);
+  text-decoration: none;
+}
+
+.product-link:hover {
+  color: var(--color-dark-blue);
+}
+
+.product-link span {
+  -webkit-animation: jumpX 1s infinite ease-in-out alternate;
+  animation: jumpX 1s infinite ease-in-out alternate;
+}
+
+@keyframes jumpX {
+  0% {
+    margin-inline-start: 0.7rem;
+  }
+
+  35% {
+    margin-inline-start: 0;
+  }
+
+  70% {
+    margin-inline-start: 0.7rem;
+  }
+
+  100% {
+    margin-inline-start: 0rem;
+  }
+}

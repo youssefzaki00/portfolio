@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Youssef Zaki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./main.css" />
+</head>
+
+<body>
+  <div class="container"><video loop autoplay muted class="video-loop">
+      <source src="./video-loop.mp4" type="video/mp4">Your browser does not support the video tag.
+    </video>
+    <header class="header"><label for="menu" class="burger-menu">
+        <div class="burger-menu__bar"></div>
+        <div class="burger-menu__bar"></div>
+        <div class="burger-menu__bar"></div>
+      </label><input id="menu" class="burger-menu__checkbox" type="checkbox">
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li><a class="navigation__link navigation__bio" href="#bio">Bio</a></li>
+          <li><a class="navigation__link navigation__skills" href="#skills">Skills</a></li>
+          <li><a class="navigation__link navigation__projects" href="#projects">Projects</a></li>
+          <li><a class="navigation__link navigation__clients" href="#clients">My Clients</a></li>
+          <li><a class="navigation__link navigation__contact" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="toggle">
+        <h3 class="toggle__title">Switch Theme</h3><input id="toggle" class="toggle__checkbox" type="checkbox" /><label
+          class="toggle__label" for="toggle"></label>
+      </div>
+    </header>
+    <section id="bio" class="section bio">
+      <div class="bio__data">
+        <h1 class="bio__heading">Hi There,<br />I’M A Passionate Front-end Developer </h1>
+        <p class="bio__details">My name is <span class="bio__name">Youssef zaki</span>, <span
+            class="bio__title">Front-end Developer</span>who passionate about <span class="bio__tag">web
+            development</span></p><a class="bio__links say-hi-link" href="#contact">Say Hi</a><a
+          class="bio__links find-out-link" href="Youssef-zaki-Resume.pdf">Download CV <span
+            class="bio__arrow">↓</span></a>
+      </div>
+      <div class="bio__img"><img class="bio__pic" src="./images/personal-pic.png" alt="personal pic of Youssef zaki" />
+      </div>
+    </section>
+    <section id="skills" class="section skills section_with_bg">
+      <h2 class="h2-heading">Skills</h2>
+      <ul class="skills__list">
+        <li>
+          <h2>HTML</h2>
+        </li>
+        <li>
+          <h2>CSS</h2>
+        </li>
+        <li>
+          <h2>Javascript</h2>
+        </li>
+        <li>
+          <h2>React</h2>
+        </li>
+        <li>
+          <h2>Redux</h2>
+        </li>
+        <li>
+          <h2>React testing library</h2>
+        </li></u>
+    </section>
+    <section id="projects" class="projects section">
+      <h2 class="h2-heading">MY FEATURED <br>PROJECTS</h2>
+      <div class="projects-main">
+        <div class="project-data"><img src="./images/project-1.png" alt="project 01 thumbnail" class="project-img">
+          <div class="project-details section">
+            <h3 class="h3-heading">Brand</h3>
+            <p class="project-desc">Brand is a e-commerce project built with React.js , firebase and TailwindCSS with
+              features like Signup, Login, Darkmode, Sort Products, Cart, saved Products, ect.</p><a
+              href="https://brand-shopping.vercel.app/" target="_blank" rel="Brand Link" class="product-link">Go to
+              <span>→</span></a>
+          </div>
+        </div>
+        <div class="project-data">
+          <div class="project-details section">
+            <h3 class="h3-heading">Todo App</h3>
+            <p class="project-desc">Todo App is a todo List application for writing notes and also used for tasks ,
+              daily tasks or your prefrence.the project is built with pure CSS and Javascript.</p><a
+              href="https://youssefzaki00.github.io/Todo-List/" target="_blank" rel="Brand Link" class="product-link">Go
+              to <span>→</span></a>
+          </div><img src="./images/project-2.png" alt="project 02 thumbnail" class="project-img">
+        </div>
+      </div>
+    </section>
+    <section id="clients" class="section clients section_with_bg">
+      <h2 class="h2-heading">WHAT MY <br />CLIENTS SAYS</h2>
+      <div class="clients__review">
+        <p class="client-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt modi dolore animi
+          doloremque quidem quia repellendus perferendis debitis veritatis aliquid? Voluptatum possimus iusto reiciendis
+          laboriosam deserunt, libero aspernatur voluptatibus recusandae?. </p>
+        <p class="client-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, perferendis
+          impedit! Sit maiores numquam, dolore vel ipsa porro similique cum provident quis neque culpa, quasi delectus
+          accusantium nesciunt sapiente! Ex.. </p>
+        <p class="client-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam facilis voluptates
+          aperiam explicabo quasi, itaque natus! Veritatis dicta expedita, cumque provident deserunt ipsum fugit soluta
+          laboriosam iste maiores maxime quam.. </p>
+      </div>
+    </section>
+    <section id="contact" class="section contact">
+      <div>
+        <p class="contact__description">Feel free to reach out to me any time. I prefer to talk over email, especially
+          since we may be a few time zones away. </p><a href="mailto: zakiyousef15@gmail.com"
+          class="contact__email">zakiyousef15@gmail.com</a>
+        <div class="contact__socials"><a class="contact__social" href="#"><img src="./images/brand/facebook.svg"
+              alt="facebook" /></a><a class="contact__social" href="#"><img src="./images/brand/twitter.svg"
+              alt="twitter" /></a><a class="contact__social" href="#"><img src="./images/brand/github.svg"
+              alt="github" /></a><a class="contact__social" href="#"><img src="./images/brand/LinkedIn.svg"
+              alt="LinkedIn.svg" /></a></div>
+      </div>
+      <div class="contact__formContent">
+        <h2 class="h2-heading">Let’s Work <br />Together! </h2>
+        <form action="results.html">
+          <div class="contact__inputs"><input type="text" class="contact__input" name="name" placeholder="Full Name"
+              required /><input type="tel" class="contact__input" placeholder="Phone No." name="tel" required
+              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" /></div><textarea class="contact__input contact__textarea"
+            name="message" placeholder="Your Message" rows="2" required></textarea><input type="submit"
+            class="contact__button" value="Send Message" />
+        </form>
+      </div>
+    </section>
+    <footer class="footer">© 2023 by Youssef zaki</footer>
+  </div>
+</body>
+
+</html>

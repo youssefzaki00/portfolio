@@ -1,0 +1,21 @@
+.skills__list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 5rem;
+}
+
+.skills__list li h2 {
+  font-size: var(--font-size-38);
+  font-weight: var(--font-weight-semi-bold);
+  user-select: none;
+  transition: var(--transition-timing);
+  -webkit-transition: var(--transition-timing);
+  -moz-transition: var(--transition-timing);
+  -ms-transition: var(--transition-timing);
+  -o-transition: var(--transition-timing);
+}
+
+.skills__list li h2:hover {
+  color: var(--color-green);
+}
